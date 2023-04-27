@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+JP&display=swap">
+
+    <script src="/totalBasketballScore.js"></script>
+    <title>Testing</title>
+</head>
+<body>
+    
+    <h1>Basketball Score Calculator</h1>
+    <div class="form">
+    <form>
+        <label for="freeThrows">Free Throws</label>
+        <input type="number" id="freeThrows" name="freeThrows" required autocomplete="off">
+        
+        <label for="midRange">Mid Range</label>
+        <input type="number" id="midRange" name="midRange" required autocomplete="off">
+        
+        <label for="threePointers">Three Pointers</label>
+        <input type="number" id="threePointers" name="threePointers" required autocomplete="off">
+
+        <button type="button" onclick="calculateScore()">
+        CALCULATE</button>
+        <p id="score"></p>
+    </form>
+
+
+    </div>
+    <script src="/script.js " defer></script>
+</body>
+</html>
